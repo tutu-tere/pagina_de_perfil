@@ -1,0 +1,45 @@
+.foto_usuario{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border:solid white 4px;
+  margin-left: 30px;
+  margin: 30px;
+}
+.color{
+  background-color:#41BADC;
+  width: 750px;
+  height: 100px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+  margin: 20px;
+  width: 750px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  margin-top: 95px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.procedencia {
+  font-size: larger;
+  color: dimgray;
+}
+p{
+  margin-left: 30px;
+  margin-right: 30px;
+  color: slategrey;
+}
+button{
+  margin-left: 30px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  font-size: large;
+  border-radius: 5px;
+}

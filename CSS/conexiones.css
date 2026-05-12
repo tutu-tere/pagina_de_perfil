@@ -1,0 +1,32 @@
+.tus_conexiones {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  margin-bottom: 300px;
+  gap: 15px;
+}
+
+.contacto {
+  width: 30px;
+  height: 30px;
+  border:solid lightblue; 
+  border-radius: 50px;
+  
+}
+.titulo_conex {
+  margin-left: 70px;
+}
+
+.contacto_item{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  gap: 20px;
+}

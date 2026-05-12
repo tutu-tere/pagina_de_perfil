@@ -1,0 +1,48 @@
+.conexiones {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  gap: 15px;
+}
+
+.titulo_conex{
+  margin-left: 10px;
+}
+
+.solicitud_uno, .solicitud_dos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.solicitud_uno img, .solicitud_dos img{
+  width: 50px;
+  height: 50px;
+  border:solid lightblue; 
+  border-radius: 5px;
+  
+}
+.confirmar, .negativo{
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  border:solid red;
+  color:red;
+  font-size: xx-large;
+  background-color: white;
+}
+
+.contenedor {
+  display: flex;
+  align-content: space-around;
+}
