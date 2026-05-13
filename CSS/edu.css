@@ -1,9 +1,9 @@
 .section_educativa {
-  margin: 20px;
   width: 750px;
   height: 250px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin:20px
 }
 
 .titulo_edu{
@@ -11,9 +11,3 @@
   padding-left: 30px;
 }
 
-.seccion_baja{
-  display: flex;
-  gap: 20px;
-  justify-content: flex-start;
-  align-items:flex-start;
-}

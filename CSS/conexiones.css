@@ -3,14 +3,13 @@
   flex-direction: column;
   width: 450px;
   height: auto;
-  margin-left: 20px;
   margin-top: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   font-family: "Roboto", sans-serif;
-  padding: 10px;
-  margin-bottom: 300px;
-  gap: 15px;
+  margin-left: 20px;
+  gap:15px;
+  padding-bottom: 20px;
 }
 
 .contacto {

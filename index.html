@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/tarjeta_usuario.css" />
     <link rel="stylesheet" href="CSS/solicitud.css" />
     <link rel="stylesheet" href="CSS/conexiones.css" />
+    <link rel="stylesheet" href="CSS/global.css" />
     <script
       src="https://kit.fontawesome.com/36db41983a.js"
       crossorigin="anonymous"
@@ -28,46 +29,30 @@
         <li><button class="nav">Cerrar Sesión</button></li>
       </ul>
     </nav>
-    <div class="contenedor">
-      <!-- Tarjeta usuario -->
-      <div class="container">
-        <div class="color">
-          <img
-            class="foto_usuario"
-            src="img/344809397_245174144694873_5687146422862161731_n.jpg"
-            alt="Foto_usuario"
-          />
-        </div>
-        <h1 class="nombre">Teresa Olivares</h1>
-        <p class="procedencia">Quilpué, Chile</p>
-        <p class="Conocimientos">
-          Psicologa || Desarrolladora Fullstack Python || Actriz Vocacional
-        </p>
-        <p>
-          Me llamo Teresa, y estoy decidida a seguir avanzando y aprendiendo en
-          este increíble campo. Aquí encontrarás una colección de proyectos,
-          aprendizajes y desafíos que he superado a lo largo del tiempo.
-        </p>
-        <button><i class="fa-solid fa-gear"></i> edit profile</button>
+    <div class="contenedor_principal">
+      <div class="columna_izquierda">
+        <!-- Tarjeta usuario -->
+        <div class="container">
+          <div class="color">
+            <img
+              class="foto_usuario"
+              src="img/344809397_245174144694873_5687146422862161731_n.jpg"
+              alt="Foto_usuario"
+            />
+          </div>
+          <h1 class="nombre">Teresa Olivares</h1>
+          <p class="procedencia">Quilpué, Chile</p>
+          <p class="Conocimientos">
+            Psicologa || Desarrolladora Fullstack Python || Actriz Vocacional
+          </p>
+          <p>
+            Me llamo Teresa, y estoy decidida a seguir avanzando y aprendiendo
+            en este increíble campo. Aquí encontrarás una colección de
+            proyectos, aprendizajes y desafíos que he superado a lo largo del
+            tiempo.
+          </p>
+          <button><i class="fa-solid fa-gear"></i> edit profile</button>
       </div>
-      <!-- solicitudes de contacto -->
-      <div class="conexiones">
-        <h2 class="titulo_conex">Solicitudes de Conexiones (2)</h2>
-        <div class="solicitud_uno">
-          <img src="img/Arnold.jpg" alt="Arnold" />
-          <span>Arnold Shortman</span>
-          <button class="confirmar"><i class="fa-solid fa-check"></i></button>
-          <button class="negativo"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-        <div class="solicitud_dos">
-          <img src="img/Helga pataki.jpg" alt="helga" />
-          <span>Helga Pataki</span>
-          <button class="confirmar"><i class="fa-solid fa-check"></i></button>
-          <button class="negativo"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-      </div>
-    </div>
-    <section class="seccion_baja">
       <!-- seccion educacion  -->
       <div class="section_educativa">
         <h2 class="titulo_edu">Educación</h2>
@@ -76,34 +61,53 @@
         <p>Kibernum - Desarrolladora Fullstack Python</p>
         <p>Aconcap - Instaladora Electrica clase D</p>
       </div>
-      <!-- Seccion conexiones -->
-      <div class="tus_conexiones">
-        <h2 class="titulo_conex">Tus Conexiones (500 +)</h2>
-        <div class="contacto_item">
-          <img class="contacto" src="img/Gerald.jpg" alt="Gerald" />
-          <span> Gerald Johanssen</span>
+      </div>
+
+      <div class="columna_derecha">
+        <!-- solicitudes de contacto -->
+        <div class="conexiones">
+          <h2 class="titulo_conex">Solicitudes de Conexiones (2)</h2>
+          <div class="solicitud_uno">
+            <img src="img/Arnold.jpg" alt="Arnold" />
+            <span>Arnold Shortman</span>
+            <button class="confirmar"><i class="fa-solid fa-check"></i></button>
+            <button class="negativo"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="solicitud_dos">
+            <img src="img/Helga pataki.jpg" alt="helga" />
+            <span>Helga Pataki</span>
+            <button class="confirmar"><i class="fa-solid fa-check"></i></button>
+            <button class="negativo"><i class="fa-solid fa-xmark"></i></button>
+          </div>
         </div>
-        <div class="contacto_item">
-          <img class="contacto" src="img/Gromble.jpg" alt="Grombled" />
-          <span> Grombled Hye</span>
-        </div>
-        <div class="contacto_item">
-          <img class="contacto" src="img/Ickis.jpg" alt="Ickis" />
-          <span> Ickis Espanto</span>
-        </div>
-        <div class="contacto_item">
-          <img class="contacto" src="img/Krumm.jpg" alt="Krumm" />
-          <span>Krumm Fetido</span>
-        </div>
-        <div class="contacto_item">
-          <img class="contacto" src="img/Oblina.jpg" alt="Oblina" />
-          <span> Oblina Baston</span>
-        </div>
-        <div class="contacto_item">
-          <img class="contacto" src="img/Phoebe.jpg" alt="Phoebe" />
-          <span> Phoebe Heyerda</span>
+        <!-- Seccion conexiones -->
+        <div class="tus_conexiones">
+          <h2 class="titulo_conex">Tus Conexiones (500 +)</h2>
+          <div class="contacto_item">
+            <img class="contacto" src="img/Gerald.jpg" alt="Gerald" />
+            <span> Gerald Johanssen</span>
+          </div>
+          <div class="contacto_item">
+            <img class="contacto" src="img/Gromble.jpg" alt="Grombled" />
+            <span> Grombled Hye</span>
+          </div>
+          <div class="contacto_item">
+            <img class="contacto" src="img/Ickis.jpg" alt="Ickis" />
+            <span> Ickis Espanto</span>
+          </div>
+          <div class="contacto_item">
+            <img class="contacto" src="img/Krumm.jpg" alt="Krumm" />
+            <span>Krumm Fetido</span>
+          </div>
+          <div class="contacto_item">
+            <img class="contacto" src="img/Oblina.jpg" alt="Oblina" />
+            <span> Oblina Baston</span>
+          </div>
+          <div class="contacto_item">
+            <img class="contacto" src="img/Phoebe.jpg" alt="Phoebe" />
+            <span> Phoebe Heyerda</span>
+          </div>
         </div>
       </div>
-    </section>
   </body>
 </html>
