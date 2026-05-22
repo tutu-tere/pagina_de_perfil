@@ -68,7 +68,7 @@
     <div class="columna_derecha">
       <!-- solicitudes de contacto -->
       <div class="conexiones">
-        <h2 class="titulo_conex">Solicitudes de Conexiones (2)</h2>
+        <h2 class="titulo_conex">Solicitudes de Conexiones (<span id="numSolicitudes">2</span>)</h2>
         <div class="solicitud_uno">
           <div class="info_usuario">
             <img src="img/Arnold.jpg" alt="Arnold" />
@@ -97,16 +97,17 @@
 
       <!-- Seccion conexiones -->
       <div class="tus_conexiones">
-        <h2 class="titulo_conex">Tus Conexiones (500 +)</h2>
-        <div class="contacto_item">
-          <img class="contacto" src="img/Gerald.jpg" alt="Gerald" />
-          <span> Gerald Johanssen</span>
-        </div>
-        <div class="contacto_item">
-          <img class="contacto" src="img/Gromble.jpg" alt="Grombled" />
-          <span> Grombled Hye</span>
-        </div>
-        <div class="contacto_item">
+        <h2 class="titulo_conex">Tus Conexiones (<span id="numConexiones">500</span>+)</h2>
+        <div id="listaConexiones">
+          <div class="contacto_item">
+            <img class="contacto" src="img/Gerald.jpg" alt="Gerald" />
+            <span> Gerald Johanssen</span>
+          </div>
+          <div class="contacto_item">
+            <img class="contacto" src="img/Gromble.jpg" alt="Grombled" />
+            <span> Grombled Hye</span>
+          </div>
+          <div class="contacto_item">
           <img class="contacto" src="img/Ickis.jpg" alt="Ickis" />
           <span> Ickis Espanto</span>
         </div>
@@ -123,6 +124,8 @@
           <span> Phoebe Heyerda</span>
         </div>
       </div>
+      </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>

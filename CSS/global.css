@@ -10,14 +10,6 @@
   display: flex;
   flex-direction: column;
 }
-/* .columna_izquierda{
-  width: 70%;
-}
-
-.container, .section_educativa, .conexiones, .tus_conexiones {
-  box-sizing: border-box;
-  width: 80%;
-} */
 
 .columna_izquierda{
   flex: 2;
