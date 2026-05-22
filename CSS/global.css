@@ -2,26 +2,35 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 10px;
+  gap: 60px;
   margin:20px;
 }
 
 .columna_izquierda, .columna_derecha {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 /* .columna_izquierda{
   width: 70%;
-}
-.columna_derecha{
-  width: 30%;
 }
 
 .container, .section_educativa, .conexiones, .tus_conexiones {
   box-sizing: border-box;
   width: 80%;
 } */
+
+.columna_izquierda{
+  flex: 2;
+}
+.columna_derecha {
+  flex: 1;
+  margin-right: 50px;
+}
+.columna_derecha > div {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .color {
   box-sizing: border-box;
   width: 100%;

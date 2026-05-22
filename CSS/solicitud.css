@@ -1,10 +1,9 @@
 .conexiones {
   display: flex;
   flex-direction: column;
-  width: 450px;
   height: 300px;
   margin-left: 20px;
-  margin-right: 300px;
+  margin-right: 30px;
   margin-top: 50px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -19,11 +18,21 @@
 
 .solicitud_uno, .solicitud_dos{
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  align-items: center;
   padding: 10px;
   border-bottom: 1px solid #ddd;
+}
+
+.info_usuario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.acciones {
+  display: flex;
+  gap: 10px;
 }
 
 .solicitud_uno img, .solicitud_dos img{
@@ -35,11 +44,11 @@
 }
 .confirmar, .negativo{
   border-radius: 50px;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   border:solid red;
   color:red;
-  font-size: xx-large;
+  font-size: medium;
   background-color: white;
 }
 

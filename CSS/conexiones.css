@@ -1,7 +1,6 @@
 .tus_conexiones {
   display: flex;
   flex-direction: column;
-  width: 450px;
   height: auto;
   margin-top: 20px;
   border-radius: 15px;
@@ -10,6 +9,7 @@
   margin-left: 20px;
   gap:15px;
   padding-bottom: 20px;
+  margin-right: 30px;
 }
 
 .contacto {

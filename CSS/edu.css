@@ -1,9 +1,7 @@
 .section_educativa {
-  width: 950px;
   height: 250px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  margin-left:200px;
   margin-top: 40px;
 }
 
